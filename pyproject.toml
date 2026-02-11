@@ -1,0 +1,13 @@
+[project]
+name = "test-osa"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "lab-devices",
+    "pyvisa-py>=0.8.1",
+]
+
+[tool.uv.sources]
+lab-devices = { git = "https://github.com/UPVfab/lab_equipment.git", rev = "alpha_0_1_2" }
